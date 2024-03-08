@@ -1,4 +1,5 @@
 // Through structure
+/////////////////////////////////////////////// INCORRECT//////////////////////////
 
 #include <iostream>
 using namespace std;
@@ -75,7 +76,7 @@ int main()
         default:
             cout << "Invalid choice. Try again.\n";
         }
-    } while (choice != 5);
+    } while (choice );
 
     return 0;
 }
