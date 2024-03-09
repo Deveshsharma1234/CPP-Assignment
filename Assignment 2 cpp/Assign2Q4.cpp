@@ -34,7 +34,7 @@ public:
              << endl;
         cin >> pinCode;
     }
-    void displayAddress() 
+    void displayAddress()
     {
         cout << "Address stored is: " << building << "," << street << "," << city << "," << pinCode << endl;
     }
@@ -97,16 +97,16 @@ public:
             switch (choice)
             {
             case 1:
-                getPincode();
+                cout << getPincode() << endl;
                 break;
             case 2:
-                getCity();
+                cout << getCity() << endl;
                 break;
             case 3:
-                getStreet();
+                cout << getStreet() << endl;
                 break;
             case 4:
-                getBuilding();
+                cout << getBuilding() << endl;
                 break;
 
             default:
